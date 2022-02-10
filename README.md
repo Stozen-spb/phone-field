@@ -10,14 +10,14 @@ A vue.js (vue2) phone text field component with mask +7 (969) 555-66-77
 Вдохновлено этим видео https://www.youtube.com/watch?v=Lxj_v5z0xRE
 
 Установка:
-npm i vue-phone-field-ru
+> npm i vue-phone-field-ru
 
 Использование:
-
-<template>
- <phone-field v-model="phone" class="yourClasses" validate autofocus />
-</template>
-<script>
+<pre>
+&#60;template>
+ &#60;phone-field v-model="phone" class="yourClasses" validate autofocus />
+&#60;/template>
+&#60;script>
 import phoneField from 'vue-phone-field-ru'
 export default {
   data: {
@@ -27,7 +27,7 @@ export default {
     phoneField,
   },
 }
-</script>    
+&#60;/script> </pre>   
 
 
 
